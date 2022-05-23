@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #E0EAFC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+header,
+.content,
+.my-info {
+    display: flex;
+}
+
+.page {
+    margin: 0 8%;
+
+}
+
+header {
+    height: 10%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    justify-content: flex-start;
+    box-shadow: 2px 4px 24px 5px rgb(96, 153, 243);
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 5px;
+    color: rgb(67, 100, 246);
+    font-size: 20px;
+    padding: 20px;
+    width: 35%;
+    font-weight: bold;
+}
+
+header .logo:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+header .bttn {
+    justify-content: flex-end;
+}
+
+header .btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Fjalla One', sans-serif;
+    border: 4px solid rgb(29, 68, 241);
+    text-transform: capitalize;
+    font-size: larger;
+    box-shadow: -4px 6px 0px 0px rgb(137, 168, 255);
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: rgb(67, 100, 246);
+}
+
+.btn:hover {
+    background-color: rgb(17, 57, 233);
+    border: 2px solid #ffffff;
+    color: #fff;
+}
+
+h2,
+h3 {
+    color: rgb(17, 57, 233);
+    letter-spacing: 2px;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
+p {
+    color: rgb(0, 0, 0);
+}
+
+.content a {
+    color: rgb(17, 57, 233);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 700;
+}
+
+.content a:hover {
+    color: rgb(94, 122, 248);
+}
+
+.content {
+    margin-top: 15%;
+    width: 100%;
+    height: 80%;
+    justify-content: space-between;
+}
+
+
+.text {
+    width: 50%;
+    margin: 20px;
+    text-transform: capitalize;
+}
+
+.img {
+    width: 50%;
+    cursor: pointer;
+}
+
+.content img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.info {
+    margin-top: 10%;
+    text-transform: capitalize;
+    justify-content: space-between;
+}
+
+.my-info {
+    text-transform: capitalize;
+    justify-content: space-between;
+    list-style-type: disclosure-closed;
+    color: rgb(86, 115, 248);
+    font-weight: 700;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 2px;
+}
+
+.my-info li {
+    padding: 15px;
+    width: 20%;
+    align-items: center;
+    text-align: center;
+}
+
+span {
+    color: rgb(16, 60, 255);
+    font-weight: bold;
+}
